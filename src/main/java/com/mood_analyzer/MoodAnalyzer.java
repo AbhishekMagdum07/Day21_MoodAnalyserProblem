@@ -8,7 +8,7 @@ public class MoodAnalyzer {
         this.message = message;
     }
     public String analyzeMood() {
-        String line = "I am in Sad Mood";
+        String line = "I am in Happy Mood";
         if (message ==  line ){
            output = "SAD";                   // Return happy or sad according to mood.
         }else
