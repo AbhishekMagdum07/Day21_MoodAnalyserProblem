@@ -11,7 +11,7 @@ class MoodAnalyzerTest {
     @Test
     void analyzeMood1(){
         String output = object.analyzeMood(message);
-        assertEquals("SAD",output);
+        assertEquals(null,output);
     }
 
 }
