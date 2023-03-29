@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MoodAnalyzerTest {
-    String message = "I am in Happy Mood";
-    MoodAnalyzer object = new MoodAnalyzer(message); // output should be Sad.
+    String message = "";
+    MoodAnalyzer object = new MoodAnalyzer(message);
 
     @Test
     void analyzeMood1(){
-        String output = object.analyzeMood();
+        String output = object.analyzeMood(message);
         assertEquals("SAD",output);
     }
 
